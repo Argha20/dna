@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    clip: rect(0 auto auto 0);
+}
+/* landing */
+.main_page{
+    font-family: 'Poppins', sans-serif;
+    height: 643px;
+}
+.one_nav{
+    padding-left: 200px !important; 
+}
+.one_nav li{
+    padding-left: 40px!important;
+}
+.nav-link:hover{
+    color: #49e6ec!important;
+}
+nav .btn{
+    background-color: #f7f9fc;
+}
+nav .btn:hover{
+    background-color: #3b91f6;
+}
+.main_page p{
+    color: #20d9c1;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;    
+}
+.main_page h1{
+    font-weight: 700;
+    letter-spacing: 0.1rem;    
+}
+.heading{
+    margin-top: 190px!important;
+}
+.lan-button{
+    margin-top: 25px!important;
+}
+
+/* services */
+.service{
+    font-family: 'Poppins', sans-serif;
+    height: 750px;    
+    background-color: #f2fbff;
+    margin-top: 20px;
+}
+.service p{
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    text-align: center;  
+    color: #82a7b7;  
+    padding-top: 90px;
+}
+.service .card{
+    margin-top: 90px;
+    background-color: #e6f7ff!important;
+    border-style: none!important;
+    width: 270px!important;
+    height: 450px!important;
+}
+.service img{
+    margin: 30px;
+    width: 60px;
+    height: 60px;
+}
+.service .card-title{
+    margin: 20px;
+}
+.service .card-text{
+    text-align: left!important;
+    margin-left: 18px;
+}
+/* about us */
+.about{
+    height: 750px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+.outer_div{
+    position: relative!important;
+    width: 600px;
+    height: 550px;
+    background-color: #e3fffb;
+    border-radius: 5%;
+}
+.about .card{
+    padding-left: 20px;
+    position: absolute!important;
+    width: 330px;
+    height: 210px;
+    border-style: none;
+    margin-top: 152px;
+    margin-left: 133px;
+    box-shadow: 10px 10px 25px 11px #dbdbdb;
+}
+.about img{
+    width: 22%;
+    margin-top: -31px;
+    margin-left: 11px;
+}
+.d_quote{
+    width: 40px!important;
+    height: 40px;
+    margin-top: 20px!important;
+    margin-left: 228px!important;
+}
+.about .card-text{
+    margin-top: 24px!important;
+    font-size: .85rem;
+}
+span{
+    margin-left: 47px;
+}
+.about_text{
+    margin-top: 80px;
+    margin-left: 85px;
+}
+.about_text h5{
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: #20d9c1;  
+}
+.about_text h2{
+    font-weight: 550;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.about p{
+    color: #535479;
+}
+/* products */
+.product{
+    height: 1500px;
+    font-family: 'Poppins', sans-serif;
+}
+.product_text h5{
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: #20d9c1;
+    text-align: center;  
+}
+.product h2{
+    padding-top: 10px;
+    font-weight: 550;
+    text-align: center;
+}
+.product .card{
+    margin-top: 50px;
+    margin-left: 69px;
+    width: 300px!important;
+    height: 450px!important;
+}
+.product img{
+    padding-left: 28px;
+    padding-top: 18px;
+    width: 271px;
+    height: 151px;
+}
+.product .card-title{
+    text-align: left!important;
+    margin-left: 18px;
+    padding-top: 20px;
+}
+.product .card-text{
+    margin-left: 18px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #535479;
+    font-size: 0.95rem;
+}
+.product a{
+    text-decoration: none;
+    margin-left: 18px;
+}
+.product button{
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+    margin-left: 615px;
+}
+/* order */
+.order{
+    margin-top: 50px;
+    height: 643px;
+    font-family: 'Poppins', sans-serif;
+}
+.order h5{
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: #a0bdca;
+    text-align: center;  
+}
+.order img{
+    width: 6%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bfdefd;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+.order_map{
+    display: inline-block;
+    text-align: center;
+    margin-top: 130px;
+}
+.order_details{
+    margin-top: 50px;
+    margin-left: 164px;
+}
+.order_details h4{
+    color: black;
+    font-weight: 500;
+}
+.order_details p{
+    color: #535479;
+    font-size: 0.95rem;
+    margin-top: 20px;
+}
+
+/* footer */
+footer{
+    height: 550px;
+}
+.contact_messege{
+    height: 214px;
+    background: linear-gradient(45deg,#0d9ffc, #4ce9eb);
+    padding-top: 66px;
+}
+.contact_messege h2{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.logo{
+    position: relative;
+    margin-top: 50px;
+}
+.com_logo1{
+    position: absolute;
+}
+.com_logo2{
+    position: absolute;
+    left: 687px;
+}
+.com_logo3{
+    position: absolute;
+    left: 960px;
+}
+.com_logo4{
+    position: absolute;
+    left: 1105px;
+}
+.com_logo5{
+    position: absolute;
+    left: 1075px;
+    top: 150px;
+}
+.terms{
+    position: absolute;
+    top: 145px;
+    left: 436px;
+}
+.logo p{
+    text-align: center;
+}
